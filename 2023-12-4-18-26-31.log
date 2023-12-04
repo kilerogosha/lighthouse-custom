@@ -1,0 +1,64 @@
+[2023-12-04T18:26:31] [DESKTOP] Starting HEADFUL browser (Windows_NT)
+[2023-12-04T18:26:31] [MESSAGE] Browser location not specified via '--browserLocation' + 'path' so trying to find it based on OS type
+[2023-12-04T18:26:31] [BROWSER] C:\Program Files\Google\Chrome\Application\chrome.exe
+[2023-12-04T18:26:32] [STARTED] [ColdNavigation] Check https://demo.evershop.io/
+[2023-12-04T18:26:32] [COLDNAV] Start:Open main page
+[2023-12-04T18:26:42] [COLDNAV] End:Open main page
+[2023-12-04T18:26:45] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/
+[2023-12-04T18:26:45] [ENDED] [ColdNavigation] Check https://demo.evershop.io/
+[2023-12-04T18:26:45] [STARTED] [ColdNavigation] Open login page
+[2023-12-04T18:26:45] [CLICK] CSS:a[href*="/account"]
+[2023-12-04T18:26:45] [FIND] CSS:a[href*="/account"]
+[2023-12-04T18:26:45] [FIND] XPATH://*[contains(text(),"Login") and contains(@class,"text-center")]
+[2023-12-04T18:26:48] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/account/login
+[2023-12-04T18:26:48] [COLDNAV] Start:Open login page
+[2023-12-04T18:26:54] [COLDNAV] End:Open login page
+[2023-12-04T18:26:57] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/account/login
+[2023-12-04T18:26:57] [ENDED] [ColdNavigation] Open login page
+[2023-12-04T18:26:57] [STARTED] [ColdNavigation] Click on 'Sign in' button
+[2023-12-04T18:26:57] [TYPE] CSS:input[name="email"]
+[2023-12-04T18:26:57] [FIND] CSS:input[name="email"]
+[2023-12-04T18:26:59] [TYPE] CSS:input[name="password"]
+[2023-12-04T18:26:59] [FIND] CSS:input[name="password"]
+[2023-12-04T18:26:59] [FIND] XPATH://span[contains(text(),"SIGN IN")]/parent::button
+[2023-12-04T18:26:59] [CLICK] XPATH://span[contains(text(),"SIGN IN")]/parent::button
+[2023-12-04T18:26:59] [FIND] XPATH://span[contains(text(),"SIGN IN")]/parent::button
+[2023-12-04T18:26:59] [FIND] XPATH://span[contains(text(),"Shop kids")]
+[2023-12-04T18:27:03] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/
+[2023-12-04T18:27:03] [COLDNAV] Start:Click on 'Sign in' button
+[2023-12-04T18:27:09] [COLDNAV] End:Click on 'Sign in' button
+[2023-12-04T18:27:12] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/
+[2023-12-04T18:27:12] [ENDED] [ColdNavigation] Click on 'Sign in' button
+[2023-12-04T18:27:12] [STARTED] [ColdNavigation] Open 'men' page
+[2023-12-04T18:27:12] [CLICK] XPATH://a[contains(text(),"Men") and contains(@class,"nav-link")]
+[2023-12-04T18:27:12] [FIND] XPATH://a[contains(text(),"Men") and contains(@class,"nav-link")]
+[2023-12-04T18:27:12] [FIND] CSS:.listing-tem:nth-child(1)
+[2023-12-04T18:27:16] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/men
+[2023-12-04T18:27:16] [COLDNAV] Start:Open 'men' page
+[2023-12-04T18:27:22] [COLDNAV] End:Open 'men' page
+[2023-12-04T18:27:25] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/men
+[2023-12-04T18:27:25] [ENDED] [ColdNavigation] Open 'men' page
+[2023-12-04T18:27:25] [STARTED] [Timespan] Click on filter arrow
+[2023-12-04T18:27:27] [CLICK] CSS:div.sort-direction.self-center
+[2023-12-04T18:27:27] [FIND] CSS:div.sort-direction.self-center
+[2023-12-04T18:27:27] [FIND] CSS:.listing-tem:nth-child(1)
+[2023-12-04T18:27:31] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/men?sortOrder=desc
+[2023-12-04T18:27:32] [ENDED] [Timespan] Click on filter arrow
+[2023-12-04T18:27:32] [STARTED] [Timespan] Click on 'black' color checkbox
+[2023-12-04T18:27:33] [CLICK] XPATH://span[contains(text(),"Black")]/parent::a/*[@width]
+[2023-12-04T18:27:33] [FIND] XPATH://span[contains(text(),"Black")]/parent::a/*[@width]
+[2023-12-04T18:27:33] [FIND] CSS:.listing-tem:nth-child(1)
+[2023-12-04T18:27:37] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/men?sortOrder=desc&color=14
+[2023-12-04T18:27:38] [ENDED] [Timespan] Click on 'black' color checkbox
+[2023-12-04T18:27:38] [STARTED] [ColdNavigation] Open first item
+[2023-12-04T18:27:38] [CLICK] CSS:.listing-tem:nth-child(1)
+[2023-12-04T18:27:38] [FIND] CSS:.listing-tem:nth-child(1)
+[2023-12-04T18:27:38] [FIND] CSS:#product-current-image
+[2023-12-04T18:27:44] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/men/nike-react-phantom-run-flyknit-2-182
+[2023-12-04T18:27:44] [COLDNAV] Start:Open first item
+[2023-12-04T18:27:49] [COLDNAV] End:Open first item
+[2023-12-04T18:27:53] [SUCCESS] Fully Rendered Page: https://demo.evershop.io/men/nike-react-phantom-run-flyknit-2-182
+[2023-12-04T18:27:53] [ENDED] [ColdNavigation] Open first item
+[2023-12-04T18:28:02] [REPORT] HTML path: ./user-flow.report.html
+[2023-12-04T18:28:02] [REPORT] JSON path: ./user-flow.report.json
+[2023-12-04T18:28:02] CLOSING BROWSER
