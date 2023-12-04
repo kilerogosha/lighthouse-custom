@@ -1,29 +1,18 @@
 # lighthouse_custom
 Custom Lighthouse Tests Creation
 
-Docker Hub
-https://hub.docker.com/r/ibombit/lighthouse-puppeteer-chrome
-
-**Setting up target browser for execution (settings/browser.js)**
-* MS EDGE: executablePath: 'C:\\\Program Files (x86)\\\Microsoft\\\Edge\\\Application\\\msedge.exe'
-* Chrome:  executablePath: 'C:\\\Program Files\\\Google\\\Chrome\\\Application\\\chrome.exe'
-* Docker:  executablePath: '/usr/lib/chromium/chrome'
-
 **Preparing local environment for testing UI scripts**
 
 - **Without docker**
-1. Clone repo
+1. git clone --depth 1 --branch master https://github.com/kilerogosha/lighthouse-custom.git
 2. Install node.js
 3. In repo dir execute run these commands:
 ```
 npm install
-npm test huge.test.js --runInBand
+npx mocha .\test\example.test.js --desktop
 ```
 
-- **With docker**
-1. Clone repo
-2. Verify that headless mode is set to **true**: https://github.com/iBombit/lighthouse_custom/blob/38d8b67527c53a8ee67b87553bc3b099340c2288/test/huge.test.js#L13
-3. In repo dir run this command:
-```
-docker run --rm -v "$PWD:$PWD" -w "$PWD" ibombit/lighthouse-puppeteer-chrome:2.0-alpine npm test huge.test.js --runInBand
-```
+**User-flow diagram for provided scenario**
+
+![user-flow_diagram](https://github.com/kilerogosha/lighthouse-custom/assets/117376407/02855f22-f5b9-4161-98d4-0e26d9d36932)
+
